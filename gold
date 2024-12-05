@@ -1,5 +1,6 @@
 git
 
+
 cd /path/to/your-project
 git init
 git add .
@@ -8,15 +9,33 @@ git remote add origin <<URL>>
 git remote -v
 git push -u origin main
 
+
 push ไม่ติด
 git push origin main --force
 
+
+clone
 cd /path/to/your/folder
 git clone <repository-url>
 cd <repository-name>
 git status
+cd <repository>
+git status
+git pull origin main
+git add .
+git commit -m "อธิบายการเปลี่ยนแปลง"
+git push origin main
 
 
+เปลี่ยน remote
 git remote remove origin
 git remote add origin <<URL>>
+
+
+อัปเดตงาน
+git status
+git pull origin main ไม่ใช้ก็ได้
+git add .
+git commit -m "ข้อความอธิบายการเปลี่ยนแปลง"
+git push origin main
 
