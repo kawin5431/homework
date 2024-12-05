@@ -1,0 +1,22 @@
+git
+
+cd /path/to/your-project
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <<URL>>
+git remote -v
+git push -u origin main
+
+push ไม่ติด
+git push origin main --force
+
+cd /path/to/your/folder
+git clone <repository-url>
+cd <repository-name>
+git status
+
+
+git remote remove origin
+git remote add origin <<URL>>
+
