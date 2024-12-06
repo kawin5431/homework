@@ -39,3 +39,14 @@ git add .
 git commit -m "ข้อความอธิบายการเปลี่ยนแปลง"
 git push origin main
 
+
+Table: UML Multiplicities
+UML             Multiplicity	                        Meaning	Example
+1	            Exactly one instance	                A Person has exactly one BirthCertificate.
+0..1	        Zero or one instance	                A Car may have zero or one Owner.
+*	            Zero or more instances (many)	        A Library contains zero or more Books.
+1..*	        One or more instances	                A Classroom must have at least one Student.
+n	            Exactly n instances	                    A SoccerTeam has exactly 11 Players.
+0..n	        From zero to n instances	            A Bus can carry up to 50 Passengers.
+n..m	        From n to m instances	                A Room must have between 1 and 4 Walls.
+
